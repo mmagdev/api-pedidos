@@ -17,6 +17,6 @@ public class Pedido {
     @Id
     private String id;
     private LocalDateTime dataPedido;
-    private String valor;
+    private Double valor;
     private String clienteId;
 }
